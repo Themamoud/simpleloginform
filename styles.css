@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+#container{
+    border: 2px solid black;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border-left: 0;
+    border-right: 0;
+}
+.icon{
+    width: 20%;
+    margin: auto;
+    font-size: 50px;
+}
+.info input[type=text]{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 7px;
+    width: 50%;
+    border: none;
+    background-color: rgb(238, 235, 235);
+}
+.info2 input[type=password]{
+    margin: 20px 34px;
+    padding: 7px;
+    width: 50%;
+    border: none;
+    background-color: rgb(238, 235, 235);
+}
+.info3 label{
+margin-right: 100px;
+}
+.info3 a{
+text-decoration: none;
+}
+.btn{
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+}
+.btn>button{
+    padding: 7px;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+}
+.btn>button:hover{
+    cursor: pointer;
+    background-color: dimgrey;
+    color: white;
+}
